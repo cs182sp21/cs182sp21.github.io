@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "title": "Discussions",
+      "href": "discussions",
+      "list": [
+      	"TuTh 2-3 PM VLSB 2038 (Cynthia Shen)",
+      	"TuTh 2-3 PM VLSB 2062 (Jerry Huang)",
+      	"TuTh 3-4 PM VLSB 2038 (Ruta Jawale)",
+      	"TuTh 3-4 PM VLSB 2062 (Vivek Raghuram)",
+      	"TuTh 3-4 PM VLSB 20189 (Alvin Kao)",
+      	"TuTh 4-5 PM Dwinelle 259 (Yuxiang Yang)",
+      	"TuTh 4-5 PM Dwinelle 83 (Albert Chen)",
+      	"TuTh 4-5 PM Soda 310 (James Hulett)",
+      	"TuTh 5-6 PM Dwinelle 250 (Kabir Sial)",
+      	"TuTh 5-6 PM Dwinelle 246 (Aditya Baradwaj)",
+      	"WF 9-10 AM Soda 320 (Yiqun Chen)",
+      	"WF 11-12 PM Soda 320 (Ashlee Feng)",
+      	"WF 12-1 PM Latimer 102 (Courtney Vu)",
+      	"WF 12-1 PM Soda 320 (Tina Zheng)",
+      	"WF 2-3 PM Barrows 587 (Benjamin Kha)",
+      	"WF 2-3 PM Dwinelle 250 (Courtney Vu)",
+      	"WF 2:30-3:30 PM Soda 320 (Brijen Thananjeyan)",
+      	"WF 3:30-4:30 PM Soda 320 (Hongling Lu)",
+      	"WF 4-5 PM Dwinelle 205 (Shreyas Parthasarathy)",
+      	"WF 4-5 PM VLSB 20189 (Yen-Sheng Ho)",
+      	"WF 4:30-5:30 PM Soda 320 (Alex Hong)",
+      	"WF 5-6 PM Hildebrand B56 (Harley Patton)",
+      	"WF 5-6 PM Soda 310 (Michelle Ahn)",
+      	"WF 6-7 PM Etcheverry 3119 (William Wang)"
+      ]
+    },
+    {
+      "title": "Office Hours",
+      "href": "office-hours",
+      "content": "Office hours are listed on the staff page."
+    },
+    {
+      "title": "Homework Parties",
+      "href": "homework-parties",
+      "content": "Homework parties will be held every Tuesday and Friday, 9 a.m. - 12 p.m. but <b>may be subject to change.</b> Please refer to the calendar before attending a homework party."
+    },
+    {
+      "title": "Guerilla Sections",
+      "href": "guerilla-sections",
+      "list": [
+        "Saturday, February 11, 3-6 p.m. in Wozniak Lounge",
+        "Saturday, March 4, 3-6 p.m. in Wozniak Lounge",
+        "Wednesday, May 3, 2-5 p.m. in Wozniak Lounge"
+      ]
+    },
+    {
+      "title": "Exams",
+      "href": "exams",
+      "list": [
+        "<b>Midterm 1</b>: Monday, Feb 13, 2017 8:00pm - 10:00pm",
+        "<b>Midterm 2</b>: Thursday, Apr 06, 2017 7:00pm - 9:00pm"
+      ]
+    }
+  ]
+}

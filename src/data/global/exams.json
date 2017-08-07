@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Midterm 1",
+    "link": "/midterm1",
+    "weeks": [
+      10
+    ]
+  },
+  {
+    "name": "Midterm 2",
+    "link": "/midterm2",
+    "weeks": [
+      10
+    ]
+  },
+  {
+    "name": "Final",
+    "link": "/final",
+    "weeks": [
+    ]
+  }
+]

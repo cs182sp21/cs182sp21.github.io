@@ -1,0 +1,56 @@
+{% if notifications.index %}
+<div class="notification">
+    <p>{{ notifications.index }}</p>
+</div>
+{% endif %}
+<header class="wrap-container">
+    <div class="wrap">
+        <h1 class="header-title col-md-3 col-xs-3"><a href="/">CS189</a></h1>
+        <nav class="col-md-9 col-xs-9">
+            <ul class="hidden-sm hidden-xs">
+                <li><a href="/calendar">Calendar</a></li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/syllabus">Syllabus</a></li>
+                <li><a href="/staff">Staff</a></li>
+                <li><a class="menu">Menu
+                    <span class="bars">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </span>
+                </a></li>
+            </ul>
+            <ul class="hidden-xs hidden-md hidden-lg">
+                <li><a href="/calendar">Calendar</a></li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a class="menu">Menu
+                    <span class="bars">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </span>
+                </a></li>
+            </ul>
+            <ul class="hidden-sm hidden-md hidden-lg">
+                <li><a href="/resources">Resources</a></li>
+                <li><a class="menu">Menu
+                    <span class="bars">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </span>
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<aside class="animate-5 drawer wrap-container">
+    <div class="wrap">
+        <div class="col-md-12 x-container">
+            <div class="animate-3 x">
+                <span class="outer bar"><span class="bar inner"></span></span>
+            </div>
+        </div>
+        {% include "includes/links.html" %}
+    </div>
+</aside>

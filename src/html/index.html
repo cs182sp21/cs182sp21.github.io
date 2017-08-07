@@ -1,0 +1,184 @@
+{% extends "layouts/base.html" %}
+{% block top %}
+<!--
+redirect_from: /
+Course Website Design
+@author Alvin Wan
+@site alvinwan.com
+@license MIT
+-->
+{% endblock %}
+{% block title %}CS 189{% endblock %}
+
+{% block body %}
+<main class="index-page">
+    <section class="page-head wrap-container">
+        <div class="wrap">
+            <div class="head-decor">
+                <p class="head-subtitle">CS 189 at UC Berkeley</p>
+                <h1 class="head-title">Introduction to Machine Learning</h1>
+                <p class="head-subtitle">Lectures: T/Th 12:30-2 p.m., 155 Dwinelle</p>
+            </div>
+            <div class="head-people">
+                {% for person in people.faculty %}
+                <div class="person col-md-6 col-sm-12 col-xs-12">
+                    <div class="person-thumbnail">
+                        <div class="person-avatar">
+                            <span class="person-image"
+                                  style="background: url('{{person.image}}'); background-size:cover;"></span>
+                        </div>
+                    </div>
+                    <div class="person-text">
+                        <h2 class="person-name">{{ person.title }}
+                            <a href="{{ person.link }}">{{ person.name }}</a>
+                        </h2>
+                        <p><span>{{ person.email }}</span></p>
+                        <p>Office Hours: {{ person.office_hours }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    {% for week in weeks.all %}
+        {% if week.number <= weeks.current %}
+    <section class="highlighted-text week-overview wrap-container{% if week.number != weeks.current %} inactive{% endif %}" data-number="{{ week.number }}">
+        <div class="wrap">
+            <h3 class="highlighted-subtitle">Week {{ week.number }}
+                Overview</h3>
+            <h2 class="highlighted-title">{{ week.title }}</h2>
+            <p class="highlighted-byline">{{ week.date_range }}</p>
+            <span class="dividing-bar"></span>
+            <ul class="lists two-col">
+            {% for exam in exams %}
+                {% if week.number in exam.weeks %}
+                <li><a href="{{ exam.link }}">{{ exam.name }}</a></li>
+                {% endif %}
+            {% endfor %}
+            {% for note in notes %}
+                {% if week.number in note.weeks %}
+                    {% if note.active %}
+                <li><a href="/static/notes/n{{ note.number }}.html">Note
+                {{ note.number }} : {{ note.title }}</a></li>
+                    {% else %}
+                <li class="inactive">Note {{ note.number }} : {{ note.title }}</li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% for dis in discussions %}
+                {% if week.number in dis.weeks %}
+                    {% if dis.active == true %}
+                    <li><a href="/static/discussions/dis{{ dis.number }}.pdf">Discussion {{dis
+            .number}}</a>{% if dis.solution %} (<a href="/static/discussions/dis{{dis.number}}-sol.pdf">solution</a>){% endif %}</li>
+                    {% else %}
+                    <li class="inactive">Discussion {{dis
+            .number}}</li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% for hw in homeworks %}
+                {% if week.number in hw.weeks %}
+                    {% if hw.active == true %}
+                    <li><a href="/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
+            .number}}</a> (<a href="/static/homeworks/hw{{ hw.number }}.tex">TeX</a>){% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
+                    {% else %}
+                    <li class="inactive">Homework {{hw.number}}</li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            {% for slide in slides %}
+                {% if week.number in slide.weeks %}
+                    {% if slide.active == true %}
+                    <li><a href="/static/slides/lec-{{ slide.number }}-handout.pdf">Slides {{slide
+            .number}}</a> (<a href="/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>)</li>
+                    {% else %}
+                    <li class="inactive">Slides {{slide
+            .number}}</li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            </ul>
+            {% if week.number != 0 %}
+            <i class="fa fa-angle-left prev animate-3 prev-week-overview"></i>
+            {% endif %}
+            {% if week.number != weeks.current %}
+            <i class="fa fa-angle-right next animate-3 next-week-overview"></i>
+            {% endif %}
+        </div>
+    </section>
+        {% endif %}
+    {% endfor %}
+    <section class="standard-text wrap-container">
+        <div class="wrap">
+            <h2 class="standard-title" id="notes">Notes</h2>
+            <p>{{ syllabus.notes.short }} See <a href="/syllabus#materials">Syllabus</a> for more information.</p>
+            <ul class="lists two-col animate-3" resource="notes">
+            {% for note in notes %}
+                <li><a href="/static/notes/n{{ note.number }}.html">Note {{note
+                        .number}}: {{ note.title }}</a>
+                    <a href="/static/notes/n{{ note.number }}.pdf">(PDF)</a></li>
+            {% endfor %}
+            </ul>
+            <div class="trigger" resource="notes">Expand</div>
+        </div>
+    </section>
+    <section class="standard-text wrap-container">
+        <div class="wrap">
+            <h2 class="standard-title">Discussions</h2>
+            <p>{{ syllabus.discussions.short }} See <a href="/syllabus#materials">Syllabus</a> for more information.</p>
+            <ul class="lists two-col animate-3" resource="discussions">
+            {% for dis in discussions %}
+                {% set sorted_dis_weeks = dis.weeks | sort %}
+                {% set min_dis_week = sorted_dis_weeks[0] %}
+                {% if min_dis_week <= weeks.current and dis.active == true %}
+                <li><a href="/static/discussions/dis{{ dis.number }}.pdf">Discussion {{dis
+            .number}}: {{dis.title }}</a>{% if dis.solution %} (<a href="/static/discussions/dis{{dis.number}}-sol.pdf">solution</a>){% endif %}</li>
+                {% else %}
+                <li class="inactive">Discussion {{ dis.number }}: {{ dis.title }}</li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+            <div class="trigger" resource="discussions">Expand</div>
+        </div>
+    </section>
+    <section class="standard-text wrap-container">
+        <div class="wrap">
+            <h2 class="standard-title">Homeworks</h2>
+            <p>{{ syllabus.homeworks.short }} See <a href="/syllabus#materials">Syllabus</a> for more information.</p>
+            <ul class="lists two-col animate-3" resource="homeworks">
+            {% for hw in homeworks %}
+                {% set sorted_hw_weeks = hw.weeks | sort %}
+                {% set min_hw_week = sorted_hw_weeks[0] %}
+                {% if min_hw_week <= weeks.current and hw.active == true %}
+                <li><a href="/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
+                .number}}: {{ hw.title }}</a> (<a href="/static/homeworks/hw{{ hw.number }}.tex">TeX</a>){% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
+                {% else %}
+                <li class="inactive">Homework {{ hw.number }}: {{ hw.title }}</li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+            <div class="trigger" resource="homeworks">Expand</div>
+        </div>
+    </section>
+    <section class="standard-text wrap-container">
+        <div class="wrap">
+            <h2 class="standard-title">Lecture Slides</h2>
+            <p>{{ syllabus.slides.short }} See <a href="/syllabus#materials">Syllabus</a> for more information.</p>
+            <ul class="lists two-col animate-3" resource="slides">
+            {% for slide in slides %}
+                {% set sorted_slide_weeks = slide.weeks | sort %}
+                {% set min_slide_week = sorted_slide_weeks[0] %}
+                {% if min_slide_week <= weeks.current and slide.active == true %}
+                <li><a href="/static/slides/lec-{{ slide.number }}-handout.pdf">Lecture {{slide
+                .number}}</a> (<a href="/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>): {{ slide.title }} {% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
+                {% else %}
+                <li class="inactive">Slide {{ slide.number }}: {{ slide.title
+                    }}</li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+            <div class="trigger" resource="slides">Expand</div>
+        </div>
+    </section>
+</main>
+{% endblock %}

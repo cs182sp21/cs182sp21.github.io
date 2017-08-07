@@ -1,0 +1,78 @@
+{
+  "technology": {
+    "full": "<h3>Inbox</h3><p>A lightweight task manager containing all current CS70 tasks, both recommended and required. <a href='http://inbox.eecs70.org'>Try it</a>.</p><h3>Piazza</h3><p>We will use Piazza as the 'one-stop shop' throughout the semester: for a Q&A forum and for official announcements. Enrollment in Piazza is mandatory. If you have questions about anything related to the course, please post them on Piazza rather than emailing the instructor or TAs. Please do not post anything resembling a solution to a homework problem before it's due. If in doubt, you should make your post private (visible to instructors only). We always welcome any feedback on what we could be doing better. See the <a href='#piazza-etiquette'>Piazza Etiquette</a> section for more on using Piazza. To join the class on Piazza, follow this link <a href='http://piazza.com/berkeley/spring2017/cs70'>piazza.com/berkeley/spring2017/cs70</a>.</p><h3>Gradescope</h3><p>All homework will be submitted through Gradescope, and all homework and exam grades will be given back through Gradescope. To join the class on Gradescope, go to <a href='http://gradescope.com'>gradescope.com</a> and enter this code: <code>MDDBYM</code></p><h3>Instructional Servers</h3><p><i>CS70 does not make use of instructional accounts, but</i> to get a computer account for this course, go to <a href='http://inst.eecs.berkeley.edu/webacct'>http://inst.eecs.berkeley.edu/webacct</a>, or click 'WebAcct' on <a href='http://inst.eecs.berkeley.edu'>http://inst.eecs.berkeley.edu</a>.</p>"
+  },
+  "notes": {
+    "short": "There is no textbook for this class. Instead, there is a set of fairly comprehensive lecture notes. Make sure you revisit the notes after lecture. Each note may be covered in one or more lectures.",
+    "full": "<p>There is no textbook for this class. Instead, there is a set of fairly comprehensive lecture notes. Make sure you revisit the notes after lecture. Each note may be covered in one or more lectures. Note 0 is background material that you should make sure you understand before the first lecture.</p>"
+  },
+  "homeworks": {
+    "short": "All homeworks are graded for accuracy and it is highly-recommended that you do them. Your lowest homework score will be dropped, but this drop should be reserved for emergencies.",
+    "full": "<blockquote>Release Schedule: Every Friday at 10 p.m., homework for the coming week is released. Homework is then due on Gradescope the following Friday at 10 p.m.; the solutions for that homework will be released 2 hours after the deadline. Homework is then returned to you, graded, approximately one week after the deadline.</blockquote><p>All homeworks are graded for accuracy and it is highly recommended that you do them. You are expected to show your work and justify all of your answers. Your lowest homework score will be dropped, but this drop should be reserved for emergencies.</p>"
+  },
+  "slides": {
+    "short": "Slides generally follow the notes. Lecture videos are provided via CalCentral.",
+    "full": "<blockquote>Release Schedule: Slides are released <strike>the Sunday before at 10 p.m.</strike> the day of.</blockquote>Slides generally follow the notes. Lecture videos are provided via CalCentral."
+  },
+  "discussions": {
+    "short": "The discussion sections will not cover new material, but rather will give you additional practice solving problems. You can attend any discussion section you like. However, if there are fewer desks than students, then students who are officially enrolled in that section will get seating priority.",
+    "full": "<blockquote>Release Schedule: Discussions for the coming week are released the Sunday before at 10 p.m. Discussion A solutions are published every Tuesday at 10 p.m., and Discussion B solutions are published every Thursday at 10 p.m.</blockquote><p>The discussion sections will not cover new material, but rather will give you additional practice solving problems. You can attend any discussion section you like. However, if there are fewer desks than students, then students who are officially enrolled in that section will get seating priority.</p>"
+  },
+  "cheating": {
+    "full": "We have a zero-tolerance policy for cheating. First-time offenses will result in negative points for the corresponding assignment and a meeting with the professors and/or head TAs. Second-time offenses will see more serious consequences, possibly a failing grade and definitely a referral to the Center for Student Misconduct."
+  },
+  "tips": {
+    "short": "These tips have been collected through the years from professors, past and present. You can also check out the <a href='https://www.coursera.org/learn/learning-how-to-learn'>Learning How To Learn</a> coursera for other general tips",
+    "all": [
+      {
+        "title": "Don't fall behind",
+        "copy": "In a conceptual class such as this, it is particularly important to maintain a steady effort throughout the semester, rather than hope to cram just before homework deadlines or exams. This is because it takes time and practice for the ideas to sink in. Make sure you allocate a sufficient number of hours every week to the class, including enough time for reading and understanding the material as well as for doing assignments. (As a rough guide, you should expect to do at least one hour of reading and two hours of problem solving for each hour of lecture.) Even though this class does not have any major projects, you should plan to spend as much time on it as on any of your other technical classes."
+      },
+      {
+        "title": "Read the lecture notes before lecture",
+        "copy": "The material takes some time to sink in.  You'll be able to pick up the nuances if you've already got a gist of what will be covered."
+      },
+      {
+        "title": "Take the homeworks seriously",
+        "copy": "The homeworks are explicitly designed to help you to learn the material as you go along. Although the numerical weight of the homeworks is not huge or is zero, we work hard to make them instructive and interesting. Do read the sample solutions, even for the problems on which your recieved full points. You may well learn a different way of looking at the problem, and you may also benefit from emulating the style of the solutions. (In science people learn a lot from emulating the approach of more experienced scientists.) "
+      },
+      {
+        "title": "Don't procrastinate on homework",
+        "copy": "Our best advice is to read through the homework problems as soon as they are available, and let them percolate in your brain. Think through possible approaches while you are waiting in line, or stuck in an elevator, or whatever. Sleeping on a problem has often helped people to come up with a creative approach to it. Definitely do not wait until the night before it is due to start working on the homework."
+      },
+      {
+        "title": "Make use of office hours",
+        "copy": "The instructor and TAs hold office hours expressly to help you. It is often surprising how many students do not take advantage of this service. You are free to attend as many office hours as you wish (you are not constrained just to use the office hours of your section TA). You will also likely get more out of an office hour if you have spent a little time in advance thinking about the questions you have, and formulating them precisely. (In fact, this process can often lead you to a solution yourself!)"
+      },
+      {
+        "title": "Come to homework parties",
+        "copy": "We encourage collaboration on homeworks (but please read the homework policy above! all solutions must be your own). If you want to find a group to work with, or you and your friends want a nice place to work together, come to the homework parties."
+      },
+      {
+        "title": "Take part in discussion sections",
+        "copy": "Discussion sections are not auxiliary lectures. They are an opportunity for interactive learning, through guided group problem solving and other activities. The success of a discussion section depends largely on the willingness of students to participate actively in it. As with office hours, the better prepared you are for the discussion, the more you are likely to get out of it."
+      },
+      {
+        "title": "Form study groups",
+        "copy": "As stated above, you are encouraged to form small groups (two to four people) to work together on homeworks and on understanding the class material on a regular basis. In addition to being fun, this can save you a lot of time by generating ideas quickly and preventing you from getting hung up on some point or other. Of course, it is your responsibility to ensure that you contribute actively to the group; passive listening will likely not help you much. And recall the caveat above that you must write up your solutions on your own."
+      },
+      {
+        "title": "Pay attention in lectures",
+        "copy": "As the semester proceeds, many of you will no doubt feel the urge to 'daydream' during lectures, or to skip them altogether, on the grounds that you can catch up by reading the lecture notes. If you follow this strategy, you should be aware that reading mathematics is NOT the same as reading a novel or a news article: each page of mathematics needs to be read many times before it is fully understood, and needs to be backed up by examples and discussion. Following the material in class should save you several readings; even just watching it go by without fully understanding it makes your later reading easier. And you also get the benefit of student questions, examples etc. Exactly how you handle lectures is up to you. One strategy is to print out the lecture notes in advance, bring them to lecture, and add a few additional notes during class."
+      }
+    ]
+  },
+  "videos": {
+    "short": "Videos produced in the past or the current semester."
+  },
+  "extras": {
+    "short": "Materials produced in past or the current semester."
+  },
+  "exams": {
+    "full": "Midterm 1 is on Monday, Feb 13, 2017 8:00pm - 10:00pm. Midterm 2 is Thursday, Apr 06, 2017 7:00pm - 9:00pm."
+  },
+  "topics": {
+    "all": [" Review of Math Notation", " Propositions and Quantifiers", " Proofs", " Induction", " Stable Marriage", " Graph Theory", " Modular Arithmetic", " Bijections and RSA", " Polynomials", " Error Correcting Codes", " Infinity and Uncountability", " Self-Reference and Uncomputability", " Counting", " Introduction to Discrete Probability", " Conditional Probability", " Two Killer Applications", " Random Variables", " Variance", " Chebyshev's Inequality", " Some Important Distributions", " Continuous Probability", " Markov Chains", " Review of Probability", " Estimation"],
+    "full": "The following is the list of topics that we will be covering this semseter, roughly in the order specified below."
+  }
+}

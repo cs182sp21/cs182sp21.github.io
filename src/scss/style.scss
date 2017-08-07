@@ -1,0 +1,46 @@
+/*!
+ * Course Website Design
+ * @author Alvin Wan
+ * @site alvinwan.com
+ * @license MIT
+ */
+
+* {
+    font-family:'Work Sans';
+}
+
+.wrap-container {
+    text-align:center;
+}
+.wrap {
+    max-width:60em;
+    width:80%;
+    text-align:left;
+    display:inline-block;
+}
+
+.animate-3 {
+    -webkit-transition:     0.3s ease;
+    -moz-transition:        0.3s ease;
+    transition:             0.3s ease;
+}
+
+.animate-5 {
+    -webkit-transition:     0.5s ease;
+    -moz-transition:        0.5s ease;
+    transition:             0.5s ease;
+}
+
+.draft {
+    color:red;
+}
+
+@import 'header';
+@import 'footer';
+@import 'head';
+@import 'people';
+@import 'highlighted_text';
+@import 'standard_text';
+@import 'lists';
+@import 'responsive';
+@import 'marquee';

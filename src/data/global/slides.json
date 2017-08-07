@@ -1,0 +1,29 @@
+[
+  {
+    "number": 1,
+    "title": "Propositional Logic.",
+    "weeks": [
+      0
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 2,
+    "title": "Proofs.",
+    "weeks": [
+      0
+    ],
+    "draft": true,
+    "active": true
+  },
+  {
+    "number": 3,
+    "title": "Induction.",
+    "weeks": [
+      1
+    ],
+    "draft": true,
+    "active": false
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "current": 1,
+  "all": [
+    {
+      "number": 1,
+      "title": "Propositional Logic, Proofs, Induction",
+      "date_range": "Monday, June 19 - Friday, June 23"
+    },
+    {
+      "number": 2,
+      "title": "Stable Marriage, Graph Theory, Countability, Computability",
+      "date_range": "Monday, June 26 - Friday, June 30"
+    },
+    {
+      "number": 3,
+      "title": "Counting, Probability",
+      "date_range": "Monday, July 3 - Friday, July 7"
+    }]
+}

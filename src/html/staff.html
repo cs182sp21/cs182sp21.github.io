@@ -1,0 +1,92 @@
+{% extends "layouts/base.html" %}
+{% block top %}
+<!--
+redirect_from: /staff
+-->
+{% endblock %}
+{% block title %}CS 189 Staff{% endblock %}
+
+{% block body %}
+<main class="staff-page">
+    <section class="page-head wrap-container standard-text">
+        <div class="wrap">
+            <div class="head-decor">
+                <p class="head-subtitle">CS 189 at UC Berkeley</p>
+                <h1 class="head-title">Staff</h1>
+            </div>
+            <div class="head-people">
+                <h2 class="standard-title">Faculty</h2>
+                {% for person in people.faculty %}
+                <div class="person col-md-6">
+                    <div class="person-thumbnail">
+                        <div class="person-avatar">
+                            <span class="person-image"
+                                  style="background: url('{{person.image}}'); background-size:cover;"></span>
+                        </div>
+                    </div>
+                    <div class="person-text">
+                        <h2 class="person-name">{{ person.title }}
+                            <a href="{{ person.link }}">{{ person.name }}</a>
+                        </h2>
+                        <p><span>{{ person.email }}</span></p>
+                        <p>Office Hours: {{ person.office_hours }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+                <h2 class="standard-title">Head Student Instructors</h2>
+                {% for person in people.head_tas %}
+                <div class="person col-md-6">
+                    <div class="person-thumbnail">
+                        <div class="person-avatar">
+                            <span class="person-image"
+                                  style="background: url('{{person.image}}'); background-size:cover;"></span>
+                        </div>
+                    </div>
+                    <div class="person-text">
+                        <h2 class="person-name">{{ person.title }}
+                            {% if person.link %}<a href="{{ person.link }}">{{ person.name }}</a>
+                            {% else %}{{ person.name }}{% endif %}
+                        </h2>
+                        <p><span>{{ person.email }}</span></p>
+                        <p>Office Hours: {{ person.office_hours }}</p>
+                        <p>Discussion(s): {{ person.discussions }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+                <h2 class="standard-title">Student Instructors</h2>
+                <div class="row">
+                {% set i = 0 %}
+                {% for person in people.tas %}
+                    {% if i % 2 == 0 %}
+                </div>
+                <div class="row">
+                    {% endif %}
+                    <div class="person col-md-6">
+                        <div class="person-thumbnail">
+                            <div class="person-avatar">
+                                <span class="person-image"
+                                      style="background: url('{{person.image}}'); background-size:cover;"></span>
+                            </div>
+                        </div>
+                        <div class="person-text">
+                            <h2 class="person-name">{{ person.title }}
+                                {% if person.link %}
+                                    <a href="{{ person.link }}">{{ person.name
+                                        }}</a>
+                                {% else %}
+                                <span>{{ person.name }}</span>
+                                {% endif %}
+                            </h2>
+                            <p><span>{{ person.email }}</span></p>
+                            <p>Office Hours: {{ person.office_hours }}</p>
+                            <p>Discussion(s): {{ person.discussions }}</p>
+                        </div>
+                    </div>
+                {% set i = i + 1 %}
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "layouts/base.html" %}
+{% block top %}
+<!--
+redirect_from: /calendar
+-->
+{% endblock %}
+{% block title %}CS 189 Calendar{% endblock %}
+
+{% block body %}
+<main class="index-page">
+    <section class="page-head wrap-container">
+        <div class="wrap">
+            <div class="head-decor">
+                <p class="head-subtitle">CS 189 at UC Berkeley</p>
+                <h1 class="head-title">Calendar</h1>
+                <iframe src="https://calendar.google.com/calendar/embed?src=berkeley.edu_srfiphac0nuuo0mn2tsp6cvhf0%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}

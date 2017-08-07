@@ -1,0 +1,67 @@
+div.person {
+    padding:0;
+    float:left;
+
+    .person-info {
+        float:left;
+    }
+
+    .person-thumbnail {
+        @extend .person-info;
+        width:8em;
+
+        .person-avatar {
+            overflow:hidden;
+            border-radius:50%;
+            height:6em;
+            width:6em;
+            margin:1em 2em 1em 0;
+        }
+        .person-image {
+            height:100%;
+            width:100%;
+            display:inline-block;
+        }
+    }
+
+    .person-name {
+        font-size:1.5em;
+        font-family:'Raleway';
+        color:#888;
+        font-weight:300;
+        margin-bottom:0.25em;
+
+        span {
+            color:#000;
+        }
+
+        a {
+            border-bottom:1px dotted #000;
+            color:#000;
+            font-weight:inherit;
+        }
+        a:hover {
+            border-bottom:1px solid #000;
+            text-decoration:none;
+        }
+    }
+
+    .person-text {
+        @extend .person-info;
+        width:calc(100% - 9em);
+
+        p {
+            color:#888;
+            font-size:1.1em;
+            margin:0.1em 0;
+
+            span {
+                color:#000;
+            }
+        }
+    }
+}
+
+.row {
+    width:100%;
+}

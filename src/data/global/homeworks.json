@@ -1,0 +1,29 @@
+[
+  {
+    "number": "00",
+    "title": "Course Logistics",
+    "weeks": [
+      1
+    ],
+    "active": true,
+    "solution": false
+  },
+  {
+    "number": "01",
+    "title": "Propositional Logic, Proofs, Induction",
+    "weeks": [
+      1, 2
+    ],
+    "active": true,
+    "solution": false
+  },
+  {
+    "number": "02",
+    "title": "Stable Marriage, Graph Theory, Countability, Computability",
+    "weeks": [
+      2, 3
+    ],
+    "active": false,
+    "solution": false
+  }
+]

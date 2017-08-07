@@ -1,0 +1,34 @@
+{
+  "faculty": [
+    {
+      "email": "?",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Stella",
+      "office_hours": "?",
+      "title": "Instructor"
+    },
+    {
+      "email": "?",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Anant Sahai",
+      "office_hours": "?",
+      "title": "Professor"
+    }
+  ],
+  "head_tas": [
+    {
+      "discussions": "?",
+      "email": "?",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "http://alvinwan.com",
+      "name": "Alvin Wan",
+      "office_hours": "?",
+      "title": "Head uGSI"
+    }
+  ],
+  "tas": [
+    
+  ]
+}
