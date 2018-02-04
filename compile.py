@@ -73,6 +73,20 @@ for filepath in glob.iglob(os.path.join(args.global_json, '*.json')):
     with open(filepath) as f:
         global_context[key] = json.load(f)
 
+# Check that when `solution` is False, the corresponding homework solution
+# is not uploaded.
+for homework in global_context['homeworks']:
+    path = 'src/static/homeworks/hw{}-sol.pdf'.format(homework['number'])
+    if homework['solution'] is False and os.path.exists(path):
+        raise UserWarning('Do not upload solution PDFs before they should be '
+                          'released. As soon as the PDF is uploaded, students '
+                          'will be able to access the URL. If you want to '
+                          'publish Homework {}\'s solution, make sure to '
+                          'set "solution" to True in '
+                          'src/data/global/homeworks.json. Otherwise, delete '
+                          'the file found at {}'.format(
+            homework['number'], path))
+
 # Generate HTML from templates and JSON data
 for filepath in glob.iglob(os.path.join(args.html, '*.html')):
     datapath = filepath.replace(args.html, args.data) + '.json'
