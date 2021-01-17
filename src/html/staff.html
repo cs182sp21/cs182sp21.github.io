@@ -55,8 +55,8 @@ redirect_from: /staff
                 {% endfor %}
                 <h2 class="standard-title">Student Instructors</h2>
                 <div class="row">
-                {% set i = 0 %}
                 {% for person in people.tas %}
+                    {% set i = loop.index - 1 %}
                     {% if i % 2 == 0 %}
                 </div>
                 <div class="row">
@@ -82,7 +82,6 @@ redirect_from: /staff
                             <p>Discussion(s): {{ person.discussions }}</p>
                         </div>
                     </div>
-                {% set i = i + 1 %}
                 {% endfor %}
                 </div>
             </div>
