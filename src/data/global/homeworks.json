@@ -1,27 +1,36 @@
 [
   {
-    "number": "00",
-    "title": "Course Logistics",
-    "weeks": [
-      1
-    ],
-    "active": true,
-    "solution": false
-  },
-  {
     "number": "01",
-    "title": "Propositional Logic, Proofs, Induction",
+    "title": "Neural Networks & Backpropagation",
     "weeks": [
-      1, 2
+      1, 2, 3, 4
     ],
     "active": true,
     "solution": false
   },
   {
     "number": "02",
-    "title": "Stable Marriage, Graph Theory, Countability, Computability",
+    "title": "Recurrent Neural Networks & Conv Nets",
     "weeks": [
-      2, 3
+      4, 5, 6
+    ],
+    "active": false,
+    "solution": false
+  },
+  {
+    "number": "03",
+    "title": "Natural Language Processing",
+    "weeks": [
+      6, 7, 8, 9, 10
+    ],
+    "active": false,
+    "solution": false
+  },
+  {
+    "number": "04",
+    "title": "Deep Reinforcement Learning",
+    "weeks": [
+      8, 9, 10, 11, 12, 13
     ],
     "active": false,
     "solution": false

@@ -1,7 +1,7 @@
 [
   {
     "number": 1,
-    "title": "Propositional Logic.",
+    "title": "Introduction.",
     "weeks": [
       0
     ],
@@ -10,16 +10,16 @@
   },
   {
     "number": 2,
-    "title": "Proofs.",
+    "title": "ML Basics 1.",
     "weeks": [
-      0
+      1
     ],
     "draft": true,
     "active": true
   },
   {
     "number": 3,
-    "title": "Induction.",
+    "title": "ML Basics 2.",
     "weeks": [
       1
     ],

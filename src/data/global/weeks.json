@@ -3,17 +3,17 @@
   "all": [
     {
       "number": 1,
-      "title": "Propositional Logic, Proofs, Induction",
-      "date_range": "Monday, June 19 - Friday, June 23"
+      "title": "Introduction & Logistics",
+      "date_range": "Wednesday, January 20 - Friday, January 22"
     },
     {
       "number": 2,
-      "title": "Stable Marriage, Graph Theory, Countability, Computability",
-      "date_range": "Monday, June 26 - Friday, June 30"
+      "title": "ML Basics",
+      "date_range": "Monday, January 25 - Friday, January 29"
     },
     {
       "number": 3,
-      "title": "Counting, Probability",
-      "date_range": "Monday, July 3 - Friday, July 7"
+      "title": "Optimization & Backpropagation",
+      "date_range": "Monday, February 1 - Friday, February 5"
     }]
 }

@@ -1,22 +1,30 @@
 [
   {
+    "name": "Midterm 1 Practice",
+    "link": "/midterm1",
+    "weeks": [
+      6, 7
+    ]
+  },
+  {
     "name": "Midterm 1",
     "link": "/midterm1",
     "weeks": [
-      10
+      7
+    ]
+  },
+  {
+    "name": "Midterm 2 Practice",
+    "link": "/midterm2",
+    "weeks": [
+      11, 12
     ]
   },
   {
     "name": "Midterm 2",
     "link": "/midterm2",
     "weeks": [
-      10
-    ]
-  },
-  {
-    "name": "Final",
-    "link": "/final",
-    "weeks": [
+      12
     ]
   }
 ]

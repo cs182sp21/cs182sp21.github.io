@@ -55,24 +55,12 @@ Course Website Design
                 <li><a href="{{ exam.link }}">{{ exam.name }}</a></li>
                 {% endif %}
             {% endfor %}
-            {% for note in notes %}
-                {% if week.number in note.weeks %}
-                    {% if note.active %}
-                <li><a href="/static/notes/n{{ note.number }}.html">Note
-                {{ note.number }} : {{ note.title }}</a></li>
-                    {% else %}
-                <li class="inactive">Note {{ note.number }} : {{ note.title }}</li>
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
             {% for dis in discussions %}
                 {% if week.number in dis.weeks %}
                     {% if dis.active == true %}
-                    <li><a href="/static/discussions/dis{{ dis.number }}.pdf">Discussion {{dis
-            .number}}</a>{% if dis.solution %} (<a href="/static/discussions/dis{{dis.number}}-sol.pdf">solution</a>){% endif %}</li>
+                    <li><a href="/static/discussions/dis{{ dis.number }}.pdf">Discussion {{dis.number}}</a>{% if dis.solution %} (<a href="/static/discussions/dis{{dis.number}}-sol.pdf">solution</a>){% endif %}</li>
                     {% else %}
-                    <li class="inactive">Discussion {{dis
-            .number}}</li>
+                    <li class="inactive">Discussion {{dis.number}}</li>
                     {% endif %}
                 {% endif %}
             {% endfor %}
@@ -110,20 +98,6 @@ Course Website Design
     {% endfor %}
     <section class="standard-text wrap-container">
         <div class="wrap">
-            <h2 class="standard-title" id="notes">Notes</h2>
-            <p>{{ syllabus.notes.short }} See <a href="/syllabus#materials">Syllabus</a> for more information.</p>
-            <ul class="lists two-col animate-3" resource="notes">
-            {% for note in notes %}
-                <li><a href="/static/notes/n{{ note.number }}.html">Note {{note
-                        .number}}: {{ note.title }}</a>
-                    <a href="/static/notes/n{{ note.number }}.pdf">(PDF)</a></li>
-            {% endfor %}
-            </ul>
-            <div class="trigger" resource="notes">Expand</div>
-        </div>
-    </section>
-    <section class="standard-text wrap-container">
-        <div class="wrap">
             <h2 class="standard-title">Discussions</h2>
             <p>{{ syllabus.discussions.short }} See <a href="/syllabus#materials">Syllabus</a> for more information.</p>
             <ul class="lists two-col animate-3" resource="discussions">
@@ -131,8 +105,7 @@ Course Website Design
                 {% set sorted_dis_weeks = dis.weeks | sort %}
                 {% set min_dis_week = sorted_dis_weeks[0] %}
                 {% if min_dis_week <= weeks.current and dis.active == true %}
-                <li><a href="/static/discussions/dis{{ dis.number }}.pdf">Discussion {{dis
-            .number}}: {{dis.title }}</a>{% if dis.solution %} (<a href="/static/discussions/dis{{dis.number}}-sol.pdf">solution</a>){% endif %}</li>
+                <li><a href="/static/discussions/dis{{ dis.number }}.pdf">Discussion {{dis.number}}: {{dis.title }}</a>{% if dis.solution %} (<a href="/static/discussions/dis{{dis.number}}-sol.pdf">solution</a>){% endif %}</li>
                 {% else %}
                 <li class="inactive">Discussion {{ dis.number }}: {{ dis.title }}</li>
                 {% endif %}
@@ -150,8 +123,7 @@ Course Website Design
                 {% set sorted_hw_weeks = hw.weeks | sort %}
                 {% set min_hw_week = sorted_hw_weeks[0] %}
                 {% if min_hw_week <= weeks.current and hw.active == true %}
-                <li><a href="/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
-                .number}}: {{ hw.title }}</a> (<a href="/static/homeworks/hw{{ hw.number }}.tex">TeX</a>){% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
+                <li><a href="/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw.number}}: {{ hw.title }}</a> (<a href="/static/homeworks/hw{{ hw.number }}.tex">TeX</a>){% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
                 {% else %}
                 <li class="inactive">Homework {{ hw.number }}: {{ hw.title }}</li>
                 {% endif %}
@@ -169,11 +141,9 @@ Course Website Design
                 {% set sorted_slide_weeks = slide.weeks | sort %}
                 {% set min_slide_week = sorted_slide_weeks[0] %}
                 {% if min_slide_week <= weeks.current and slide.active == true %}
-                <li><a href="/static/slides/lec-{{ slide.number }}-handout.pdf">Lecture {{slide
-                .number}}</a> (<a href="/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>): {{ slide.title }} {% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
+                <li><a href="/static/slides/lec-{{ slide.number }}-handout.pdf">Lecture {{slide.number}}</a> (<a href="/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>): {{ slide.title }} {% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
                 {% else %}
-                <li class="inactive">Slide {{ slide.number }}: {{ slide.title
-                    }}</li>
+                <li class="inactive">Slide {{ slide.number }}: {{ slide.title}}</li>
                 {% endif %}
             {% endfor %}
             </ul>

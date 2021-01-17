@@ -1,34 +1,160 @@
 {
   "faculty": [
     {
-      "email": "?",
+      "email": "svlevine@eecs.berkeley.edu",
       "image": "http://data.whicdn.com/images/56056473/original.jpg",
-      "link": "",
-      "name": "Stella",
-      "office_hours": "?",
+      "link": "https://people.eecs.berkeley.edu/~svlevine/",
+      "name": "Sergey Levine",
+      "office_hours": "TBA",
       "title": "Instructor"
-    },
-    {
-      "email": "?",
-      "image": "http://data.whicdn.com/images/56056473/original.jpg",
-      "link": "",
-      "name": "Anant Sahai",
-      "office_hours": "?",
-      "title": "Professor"
     }
   ],
   "head_tas": [
     {
       "discussions": "?",
-      "email": "?",
+      "email": "btrabucco@berkeley.edu",
       "image": "http://data.whicdn.com/images/56056473/original.jpg",
-      "link": "http://alvinwan.com",
-      "name": "Alvin Wan",
+      "link": "https://www.btrabucco.com/",
+      "name": "Brandon Trabucco",
       "office_hours": "?",
       "title": "Head uGSI"
     }
   ],
   "tas": [
-    
+    {
+      "discussions": "?",
+      "email": "azhou42@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Aurick Zhou",
+      "office_hours": "?",
+      "title": "GSI"
+    },
+    {
+      "discussions": "?",
+      "email": "jcoreyes@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "JD Co-Reyes",
+      "office_hours": "?",
+      "title": "GSI"
+    },
+    {
+      "discussions": "?",
+      "email": "young.geng@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Young Geng",
+      "office_hours": "?",
+      "title": "GSI"
+    },
+    {
+      "discussions": "?",
+      "email": "cluesbj@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Brian Lee",
+      "office_hours": "?",
+      "title": "GSI"
+    },
+    {
+      "discussions": "?",
+      "email": "hendrycks@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Dan Hendrycks",
+      "office_hours": "?",
+      "title": "GSI"
+    },
+    {
+      "discussions": "?",
+      "email": "daniel.jing@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Daniel Jing",
+      "office_hours": "?",
+      "title": "uGSI"
+    },
+    {
+      "discussions": "?",
+      "email": "pravin.ravishanker@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Pravin Ravishanker",
+      "office_hours": "?",
+      "title": "uGSI"
+    },
+    {
+      "discussions": "?",
+      "email": "danielshin@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Daniel Shin",
+      "office_hours": "?",
+      "title": "uGSI"
+    },
+    {
+      "discussions": "?",
+      "email": "stephentian@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Stephen Tian",
+      "office_hours": "?",
+      "title": "uGSI"
+    },
+    {
+      "discussions": "?",
+      "email": "vsiddharth@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Siddharth Verma",
+      "office_hours": "?",
+      "title": "uGSI"
+    },
+    {
+      "discussions": "?",
+      "email": "jenseng@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Jensen Gao",
+      "office_hours": "?",
+      "title": "uGSI"
+    },
+    {
+      "discussions": "?",
+      "email": "00schen@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Sean Chen",
+      "office_hours": "?",
+      "title": "uGSI"
+    },
+    {
+      "discussions": "?",
+      "email": "max.fu.letian@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Max Fu",
+      "office_hours": "?",
+      "title": "uGSI"
+    },
+    {
+      "discussions": "?",
+      "email": "kaushik.sid.99@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Sid Kaushik",
+      "office_hours": "?",
+      "title": "uGSI"
+    },
+    {
+      "discussions": "?",
+      "email": "chobitstian@berkeley.edu",
+      "image": "http://data.whicdn.com/images/56056473/original.jpg",
+      "link": "",
+      "name": "Zeyu Yun",
+      "office_hours": "?",
+      "title": "uGSI"
+    }
   ]
 }
