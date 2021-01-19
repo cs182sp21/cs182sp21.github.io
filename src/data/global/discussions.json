@@ -5,7 +5,7 @@
     "weeks": [
       1
     ],
-    "active": true
+    "active": false
   },
   {
     "number": 2,
@@ -13,7 +13,7 @@
     "weeks": [
       2
     ],
-    "active": true
+    "active": false
   },
   {
     "number": 3,

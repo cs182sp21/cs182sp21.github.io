@@ -77,10 +77,10 @@ Course Website Design
             {% for slide in slides %}
                 {% if week.number in slide.weeks %}
                     {% if slide.active == true %}
-                    <li><a href="/static/slides/lec-{{ slide.number }}-handout.pdf">Slides {{slide
-            .number}}</a> (<a href="/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>)</li>
+                    <li><a href="/static/slides/lec-{{ slide.number }}.pdf">Lecture {{slide
+            .number}}</a></li>
                     {% else %}
-                    <li class="inactive">Slides {{slide
+                    <li class="inactive">Lecture {{slide
             .number}}</li>
                     {% endif %}
                 {% endif %}
@@ -141,9 +141,9 @@ Course Website Design
                 {% set sorted_slide_weeks = slide.weeks | sort %}
                 {% set min_slide_week = sorted_slide_weeks[0] %}
                 {% if min_slide_week <= weeks.current and slide.active == true %}
-                <li><a href="/static/slides/lec-{{ slide.number }}-handout.pdf">Lecture {{slide.number}}</a> (<a href="/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>): {{ slide.title }} {% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
+                <li><a href="/static/slides/lec-{{ slide.number }}.pdf">Lecture {{slide.number}}</a>: {{ slide.title }} {% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
                 {% else %}
-                <li class="inactive">Slide {{ slide.number }}: {{ slide.title}}</li>
+                <li class="inactive">Lecture {{ slide.number }}: {{ slide.title}}</li>
                 {% endif %}
             {% endfor %}
             </ul>

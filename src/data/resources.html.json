@@ -1,66 +1,16 @@
 {
   "videos": [
     {
-      "title": "Fall 2015 Midterm 2 Walkthrough (Sinho Chewi, Alvin Wan)",
-      "url": "https://www.youtube.com/watch?v=EU4AwBUfdcY"
-    },
-    {
-      "title": "Fall 2015 Midterm 3 Walkthrough (Professor Jean Walrand)",
-      "url": "https://www.youtube.com/watch?v=FiN6IgdaWcg&feature=youtu.be"
-    },
-    {
-      "title": "Fall 2015 Midterm 3 Walkthrough (Sinho Chewi, Alvin Wan)",
-      "url": "https://www.youtube.com/watch?v=gjYw3PIaRjQ"
-    },
-    {
-      "title": "Fall 2015 Final Walkthrough Part 1 (Sinho Chewi, Alvin Wan)",
-      "url": "https://www.youtube.com/watch?v=MdD6mRgl3Mo"
-    },
-    {
-      "title": "Fall 2015 Final Walkthrough Part 2 (Sinho Chewi, Alvin Wan)",
-      "url": "https://www.youtube.com/watch?v=Pqy6m2b4zjo"
-    },
-    {
-      "title": "Spring 2016 Midterm 1 Walkthrough (Professor Satish Rao)",
-      "url": "https://www.youtube.com/watch?v=rbygkxrc-0w&list=PLkFD6_40KJIzID2XRfoU4z8opJF2whYtQ&index=1"
-    },
-    {
-      "title": "Spring 2016 Midterm 2 Walkthrough (Professor Satish Rao, Professor Jean Walrand)",
-      "url": "https://www.youtube.com/watch?v=JZkxElwqfrI&list=PLkFD6_40KJIzID2XRfoU4z8opJF2whYtQ&index=8"
-    },
-    {
-      "title": "Fall 2016 Midterm 1 Walkthrough (Sinho Chewi, Courtney Vu, Alvin Wan)",
-      "url": "https://www.youtube.com/watch?v=DmB5BtUtjD0"
-    },
-    {
-      "title": "Fall 2016 Midterm 1 Graph Problem (Sinho Chewi)",
-      "url": "https://www.youtube.com/watch?v=F80jAlEfENY"
+      "title": "Test Document",
+      "url": "https://cs182sp21.github.io"
     }
   ],
   "extras": [
     {
-      "title": "Sinho's Notes",
-      "url": "https://chewisinho.github.io/probability",
-      "description": "60+ pages, detailed rundown of probability topics",
-      "author": "by Sinho Chewi, Spring 2016 uGSI"
-    },
-    {
-      "title": "Alvin's Booklet",
-      "url": "http://aaalv.in/abcDMPT",
-      "description": "60 pages, 35+ exam-level or harder problems",
-      "author": "by Alvin Wan, Spring 2016 Head uGSI"
-    },
-    {
-      "title": "Online Practice Problems",
-      "url": "http://practice.eecs189.org",
-      "description": "warm-up exercises for every problem set",
-      "author": "by Professor Anant Sahai, EECS faculty"
-    },
-    {
-      "title": "Spring 2016 Walkthrough Videos",
-      "url": "https://www.youtube.com/watch?v=MdD6mRgl3Mo&index=9&list=PLkFD6_40KJIzID2XRfoU4z8opJF2whYtQ",
-      "description": "problem-by-problem video walkthroughs and alternate solutions for past exams",
-      "author": "by Professor Satish Rao, Sinho Chewi, Alvin Wan"
+      "title": "Test Document",
+      "url": "https://cs182sp21.github.io",
+      "description": "testing the resources system",
+      "author": "CS 182"
     }
   ]
 }

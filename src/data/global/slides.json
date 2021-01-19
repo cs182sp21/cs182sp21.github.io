@@ -3,7 +3,7 @@
     "number": 1,
     "title": "Introduction.",
     "weeks": [
-      0
+      1
     ],
     "draft": false,
     "active": true
@@ -12,7 +12,7 @@
     "number": 2,
     "title": "ML Basics 1.",
     "weeks": [
-      1
+      2
     ],
     "draft": true,
     "active": true
@@ -21,7 +21,7 @@
     "number": 3,
     "title": "ML Basics 2.",
     "weeks": [
-      1
+      2
     ],
     "draft": true,
     "active": false
