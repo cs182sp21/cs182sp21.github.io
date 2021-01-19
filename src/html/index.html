@@ -58,9 +58,9 @@ Course Website Design
             {% for dis in discussions %}
                 {% if week.number in dis.weeks %}
                     {% if dis.active == true %}
-                    <li><a href="/static/discussions/dis{{ dis.number }}.pdf">Discussion {{dis.number}}</a>{% if dis.solution %} (<a href="/static/discussions/dis{{dis.number}}-sol.pdf">solution</a>){% endif %}</li>
+                    <li><a href="/static/discussions/dis{{ dis.number }}.pdf">Discussion {{dis.number}}: {{dis.title }}</a>{% if dis.solution %} (<a href="/static/discussions/dis{{dis.number}}-sol.pdf">solution</a>){% endif %}</li>
                     {% else %}
-                    <li class="inactive">Discussion {{dis.number}}</li>
+                    <li class="inactive">Discussion {{dis.number}}: {{dis.title }}</li>
                     {% endif %}
                 {% endif %}
             {% endfor %}
@@ -68,9 +68,9 @@ Course Website Design
                 {% if week.number in hw.weeks %}
                     {% if hw.active == true %}
                     <li><a href="/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
-            .number}}</a> (<a href="/static/homeworks/hw{{ hw.number }}.tex">TeX</a>){% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
+            .number}}: {{hw.title }}</a> (<a href="/static/homeworks/hw{{ hw.number }}.tex">TeX</a>){% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
                     {% else %}
-                    <li class="inactive">Homework {{hw.number}}</li>
+                    <li class="inactive">Homework {{hw.number}}: {{hw.title }}</li>
                     {% endif %}
                 {% endif %}
             {% endfor %}
@@ -78,10 +78,10 @@ Course Website Design
                 {% if week.number in slide.weeks %}
                     {% if slide.active == true %}
                     <li><a href="/static/slides/lec-{{ slide.number }}.pdf">Lecture {{slide
-            .number}}</a></li>
+            .number}}: {{slide.title }}</a></li>
                     {% else %}
                     <li class="inactive">Lecture {{slide
-            .number}}</li>
+            .number}}: {{slide.title }}</li>
                     {% endif %}
                 {% endif %}
             {% endfor %}

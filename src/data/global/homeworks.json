@@ -1,7 +1,7 @@
 [
   {
-    "number": "01",
-    "title": "Neural Networks & Backpropagation",
+    "number": "1",
+    "title": "Neural Networks & Backprop.",
     "weeks": [
       1, 2, 3, 4
     ],
@@ -9,8 +9,8 @@
     "solution": false
   },
   {
-    "number": "02",
-    "title": "Recurrent Neural Networks & Conv Nets",
+    "number": "2",
+    "title": "RNNs & Conv Nets.",
     "weeks": [
       4, 5, 6
     ],
@@ -18,8 +18,8 @@
     "solution": false
   },
   {
-    "number": "03",
-    "title": "Natural Language Processing",
+    "number": "3",
+    "title": "Natural Language Processing.",
     "weeks": [
       6, 7, 8, 9, 10
     ],
@@ -27,8 +27,8 @@
     "solution": false
   },
   {
-    "number": "04",
-    "title": "Deep Reinforcement Learning",
+    "number": "4",
+    "title": "Deep Reinforcement Learning.",
     "weeks": [
       8, 9, 10, 11, 12, 13
     ],

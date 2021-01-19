@@ -1,7 +1,7 @@
 [
   {
     "number": 1,
-    "title": "Introduction, Logistics, and Review of Statistics",
+    "title": "Introduction & Logistics.",
     "weeks": [
       1
     ],
@@ -9,7 +9,7 @@
   },
   {
     "number": 2,
-    "title": "Backpropagation and Optimization",
+    "title": "Backpropagation & Optimization.",
     "weeks": [
       2
     ],
@@ -17,7 +17,7 @@
   },
   {
     "number": 3,
-    "title": "CNNs, Batch Normalization, and Dropout",
+    "title": "CNNs, Batch Norm, and Dropout.",
     "weeks": [
       3
     ],
