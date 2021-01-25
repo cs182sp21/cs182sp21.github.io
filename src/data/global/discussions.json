@@ -3,15 +3,15 @@
     "number": 1,
     "title": "Introduction & Logistics.",
     "weeks": [
-      1
+      2
     ],
-    "active": false
+    "active": true
   },
   {
     "number": 2,
     "title": "Backpropagation & Optimization.",
     "weeks": [
-      2
+      3
     ],
     "active": false
   },
@@ -19,7 +19,7 @@
     "number": 3,
     "title": "CNNs, Batch Norm, and Dropout.",
     "weeks": [
-      3
+      4
     ],
     "active": false
   }
