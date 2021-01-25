@@ -37,6 +37,26 @@ Course Website Design
                     </div>
                 </div>
                 {% endfor %}
+
+                {% for person in people.head_tas %}
+                <div class="person col-md-6 col-sm-12 col-xs-12">
+                    <div class="person-thumbnail">
+                        <div class="person-avatar">
+                            <span class="person-image"
+                                  style="background: url('{{person.image}}'); background-size:cover;"></span>
+                        </div>
+                    </div>
+                    <div class="person-text">
+                        <h2 class="person-name">{{ person.title }}
+                            {% if person.link %}<a href="{{ person.link }}">{{ person.name }}</a>
+                            {% else %}{{ person.name }}{% endif %}
+                        </h2>
+                        <p><span>{{ person.email }}</span></p>
+                        <p>Office Hours: {{ person.office_hours }}</p>
+                        <p>Discussion(s): {{ person.discussions }}</p>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </section>
