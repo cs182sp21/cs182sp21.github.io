@@ -14,7 +14,7 @@
     "weeks": [
       2
     ],
-    "draft": true,
+    "draft": false,
     "active": true
   },
   {
@@ -23,7 +23,16 @@
     "weeks": [
       2
     ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 4,
+    "title": "Optimization.",
+    "weeks": [
+      3
+    ],
     "draft": true,
-    "active": false
+    "active": true
   }
 ]

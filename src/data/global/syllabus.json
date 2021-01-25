@@ -4,11 +4,11 @@
   },
   "homeworks": {
     "short": "All homeworks are graded for accuracy and it is highly-recommended that you do them. You are given a total of 5 slip days for use only on homeworks. These slip days are intended for emergency use, and as such we employ a strict late policy. There is no additional slack beyond slip days available.",
-    "full": "<blockquote>Release Schedule: Homeworks will be released on Sundays at 10 p.m. as the semester progresses. Homework is due on Gradescope on Friday at 10 p.m. at specific weeks during the semester; the solutions for that homework will be released the following Friday at 10 p.m. Homework is then returned to you, graded, approximately three weeks after the deadline.</blockquote><p>All homeworks are graded for accuracy and it is highly-recommended that you do them. You are given a total of 5 slip days for use only on homeworks. These slip days are intended for emergency use, and as such we employ a strict late policy. There is no additional slack beyond slip days available.</p>"
+    "full": "<blockquote>Release Schedule: Homeworks will be released on specific Wednesdays at 10 p.m. as the semester progresses. Homework is due on Gradescope on certain Wednesdays at 10 p.m. at specific weeks during the semester. Homework is then returned to you, graded, approximately three weeks after the deadline.</blockquote><p>All homeworks are graded for accuracy and it is highly-recommended that you do them. You are given a total of 5 slip days for use only on homeworks. These slip days are intended for emergency use, and as such we employ a strict late policy. There is no additional slack beyond slip days available.</p>"
   },
   "slides": {
-    "short": "Lecture videos are provided via the course website.",
-    "full": "<blockquote>Release Schedule: Slides are released the day of.</blockquote>Lecture videos are provided via the course website."
+    "short": "Lecture videos are provided via the course Piazza.",
+    "full": "<blockquote>Release Schedule: Slides are released the weekend before lecture.</blockquote>Lecture videos are provided via the course Piazza."
   },
   "discussions": {
     "short": "The discussion sections will not cover new material, but rather will give you additional practice solving problems. You can attend any discussion section you like. However, if there are less crowded sections that fit your schedule, those offer more opportunities for you to interact with your TA.",
@@ -53,7 +53,7 @@
     "short": "Materials produced in past or the current semester."
   },
   "exams": {
-    "full": "Midterm 1 is on Monday, March 8, 2021, Asynchronously. Midterm 2 is Monday, April 12, 2021, Asynchronously."
+    "full": "Midterm 1 is on Monday, March 8, 2021, format TBA. Midterm 2 is Monday, April 12, 2021, format TBA."
   },
   "topics": {
     "all": [" History of Deep Learning", " Discriminative vs. Generative Models", " Naive Bayes", " Logistic Regression", " Bias-Variance Tradeoff", " Regularization", " Cross-Validation", " SVM", " Gradient Descent & Variants", " Chain Rule & Backpropagation", " Convolution Neural Networks", " Activation Functions", " Network Initialization", " Batch Norm, Dropout, & Ensembles", " Hyperparameter Tuning", " Classification, Detection, & Segmentation", " t-SNE & Visualization Tools", " Recurrent Neural Networks & LSTM", " Attention & Transformer Architecture", " Word Embeddings", " Language Modelling", " Imitation Learning", " Policy Gradients", " Q-learning", " Generative Models", " Representation Learning", " Adversarial Examples"],
