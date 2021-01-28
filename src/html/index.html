@@ -87,8 +87,8 @@ Course Website Design
             {% for hw in homeworks %}
                 {% if week.number in hw.weeks %}
                     {% if hw.active == true %}
-                    <li><a href="/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
-            .number}}: {{hw.title }}</a> (<a href="/static/homeworks/hw{{ hw.number }}.tex">TeX</a>){% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
+                    <li><a href="/static/homeworks/hw{{ hw.number }}.zip">Homework {{ hw
+            .number}}: {{hw.title }}</a> {% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.zip">solution</a>){% endif %}</li>
                     {% else %}
                     <li class="inactive">Homework {{hw.number}}: {{hw.title }}</li>
                     {% endif %}
