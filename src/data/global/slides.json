@@ -32,7 +32,16 @@
     "weeks": [
       3
     ],
-    "draft": true,
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 4,
+    "title": "Backpropagation.",
+    "weeks": [
+      3
+    ],
+    "draft": false,
     "active": true
   }
 ]
