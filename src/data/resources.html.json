@@ -1,16 +1,12 @@
 {
   "videos": [
-    {
-      "title": "Test Document",
-      "url": "https://cs182sp21.github.io"
-    }
   ],
   "extras": [
     {
-      "title": "Test Document",
-      "url": "https://cs182sp21.github.io",
-      "description": "testing the resources system",
-      "author": "CS 182"
+      "title": "Matrix Calculus Review",
+      "url": "https://cs182sp21.github.io/static/review/matrix_calculus.pdf",
+      "description": "Review of taking gradients with respect to vectors and matrices.",
+      "author": "Brandon Trabucco"
     }
   ]
 }
