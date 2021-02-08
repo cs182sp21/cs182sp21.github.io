@@ -43,5 +43,23 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 6,
+    "title": "Convolutional Nets.",
+    "weeks": [
+      4
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 7,
+    "title": "Getting Nets to Train.",
+    "weeks": [
+      4
+    ],
+    "draft": false,
+    "active": true
   }
 ]

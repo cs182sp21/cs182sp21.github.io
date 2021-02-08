@@ -19,11 +19,11 @@
   },
   {
     "number": 3,
-    "title": "CNNs, Batch Norm, and Dropout.",
+    "title": "Backpropagation & CNNs.",
     "weeks": [
       4
     ],
-    "active": false,
-    "solution": false
+    "active": true,
+    "solution": true
   }
 ]
