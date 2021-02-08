@@ -1,5 +1,5 @@
 {
-  "current": 3,
+  "current": 4,
   "all": [
     {
       "number": 1,
@@ -15,5 +15,10 @@
       "number": 3,
       "title": "Optimization & Backpropagation",
       "date_range": "Monday, February 1 - Friday, February 5"
+    },
+    {
+      "number": 4,
+      "title": "Conv Nets & Training",
+      "date_range": "Monday, February 8 - Friday, February 12"
     }]
 }
