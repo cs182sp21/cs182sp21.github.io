@@ -61,5 +61,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 8,
+    "title": "Computer Vision.",
+    "weeks": [
+      5
+    ],
+    "draft": false,
+    "active": true
   }
 ]

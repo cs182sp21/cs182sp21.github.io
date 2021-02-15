@@ -25,5 +25,14 @@
     ],
     "active": true,
     "solution": true
+  },
+  {
+    "number": 4,
+    "title": "CNN Architectures & Dropout.",
+    "weeks": [
+      5
+    ],
+    "active": true,
+    "solution": false
   }
 ]
