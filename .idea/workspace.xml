@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e514ebbe-8846-43b4-aed3-206746514631" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/static/discussions/dis4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/slides/lec-8.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/discussions/dis4-sol.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/published/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/published/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/published/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/published/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/published/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/published/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/global/discussions.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global/discussions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/global/homeworks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global/homeworks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/global/slides.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global/slides.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/global/weeks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global/weeks.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
