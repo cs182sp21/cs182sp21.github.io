@@ -70,5 +70,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 9,
+    "title": "Generating Images from CNNs.",
+    "weeks": [
+      6
+    ],
+    "draft": false,
+    "active": true
   }
 ]

@@ -34,5 +34,14 @@
     ],
     "active": true,
     "solution": true
+  },
+  {
+    "number": 5,
+    "title": "Review of Vision Problems.",
+    "weeks": [
+      6
+    ],
+    "active": true,
+    "solution": false
   }
 ]

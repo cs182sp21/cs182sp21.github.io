@@ -1,5 +1,5 @@
 {
-  "current": 5,
+  "current": 6,
   "all": [
     {
       "number": 1,
@@ -25,5 +25,10 @@
       "number": 5,
       "title": "Computer Vision",
       "date_range": "Monday, February 15 - Friday, February 19"
+    },
+    {
+      "number": 6,
+      "title": "Applications Of CNNs",
+      "date_range": "Monday, February 22 - Friday, February 26"
     }]
 }
