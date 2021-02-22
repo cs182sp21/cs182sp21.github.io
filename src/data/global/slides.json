@@ -79,5 +79,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 10,
+    "title": "Recurrent Neural Networks.",
+    "weeks": [
+      6
+    ],
+    "draft": false,
+    "active": true
   }
 ]
