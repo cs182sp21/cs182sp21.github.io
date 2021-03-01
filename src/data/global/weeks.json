@@ -30,5 +30,10 @@
       "number": 6,
       "title": "Applications Of CNNs",
       "date_range": "Monday, February 22 - Friday, February 26"
+    },
+    {
+      "number": 7,
+      "title": "Sequence Models",
+      "date_range": "Monday, March 1 - Friday, March 5"
     }]
 }
