@@ -42,6 +42,15 @@
       6
     ],
     "active": true,
+    "solution": true
+  },
+  {
+    "number": 6,
+    "title": "Recurrent Neural Networks.",
+    "weeks": [
+      7
+    ],
+    "active": true,
     "solution": false
   }
 ]

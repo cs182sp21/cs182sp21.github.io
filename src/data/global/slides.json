@@ -88,5 +88,23 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 11,
+    "title": "Sequence To Sequence Models.",
+    "weeks": [
+      7
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 12,
+    "title": "Transformers.",
+    "weeks": [
+      7
+    ],
+    "draft": false,
+    "active": true
   }
 ]
