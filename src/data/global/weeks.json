@@ -1,5 +1,5 @@
 {
-  "current": 7,
+  "current": 8,
   "all": [
     {
       "number": 1,
@@ -35,5 +35,10 @@
       "number": 7,
       "title": "Sequence Models",
       "date_range": "Monday, March 1 - Friday, March 5"
+    },
+    {
+      "number": 8,
+      "title": "Natural Language Processing",
+      "date_range": "Monday, March 8 - Friday, March 13"
     }]
 }

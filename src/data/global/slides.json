@@ -106,5 +106,23 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 13,
+    "title": "Applications: NLP.",
+    "weeks": [
+      8
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 14,
+    "title": "Learning-Based Control & Imitation.",
+    "weeks": [
+      8
+    ],
+    "draft": false,
+    "active": true
   }
 ]

@@ -51,6 +51,15 @@
       7
     ],
     "active": true,
+    "solution": true
+  },
+  {
+    "number": 7,
+    "title": "Attention & Transformers.",
+    "weeks": [
+      8
+    ],
+    "active": true,
     "solution": false
   }
 ]
