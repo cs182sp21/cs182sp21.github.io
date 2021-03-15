@@ -1,5 +1,5 @@
 {
-  "current": 8,
+  "current": 9,
   "all": [
     {
       "number": 1,
@@ -40,5 +40,10 @@
       "number": 8,
       "title": "Natural Language Processing",
       "date_range": "Monday, March 8 - Friday, March 13"
+    },
+    {
+      "number": 9,
+      "title": "Reinforcement Learning",
+      "date_range": "Monday, March 15 - Friday, March 19"
     }]
 }

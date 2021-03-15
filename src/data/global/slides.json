@@ -124,5 +124,23 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 15,
+    "title": "Reinforcement Learning.",
+    "weeks": [
+      9
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 16,
+    "title": "Q-Learning.",
+    "weeks": [
+      9
+    ],
+    "draft": false,
+    "active": true
   }
 ]

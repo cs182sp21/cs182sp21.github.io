@@ -60,6 +60,15 @@
       8
     ],
     "active": true,
+    "solution": true
+  },
+  {
+    "number": 8,
+    "title": "Pretraining & Imitation.",
+    "weeks": [
+      9
+    ],
+    "active": true,
     "solution": false
   }
 ]
