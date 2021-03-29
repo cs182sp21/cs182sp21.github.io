@@ -69,6 +69,15 @@
       9
     ],
     "active": true,
+    "solution": true
+  },
+  {
+    "number": 9,
+    "title": "Policy Gradients & Q-Learning.",
+    "weeks": [
+      10
+    ],
+    "active": true,
     "solution": false
   }
 ]

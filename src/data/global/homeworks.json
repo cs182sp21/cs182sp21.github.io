@@ -35,7 +35,8 @@
     "weeks": [
       9, 10, 11, 12, 13
     ],
-    "active": false,
+    "active": true,
+    "active_url": "https://github.com/cs182sp21/hw4_student",
     "solution": false
   }
 ]

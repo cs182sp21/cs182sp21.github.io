@@ -142,5 +142,23 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 17,
+    "title": "Autoencoders & Latent Variable Models.",
+    "weeks": [
+      10
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 18,
+    "title": "Variational Autoencoders & Invertible Models.",
+    "weeks": [
+      10
+    ],
+    "draft": false,
+    "active": true
   }
 ]
