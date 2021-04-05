@@ -79,5 +79,14 @@
     ],
     "active": true,
     "solution": true
+  },
+  {
+    "number": 10,
+    "title": "Generative Models.",
+    "weeks": [
+      11
+    ],
+    "active": true,
+    "solution": false
   }
 ]

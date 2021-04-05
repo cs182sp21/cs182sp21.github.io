@@ -160,5 +160,23 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 19,
+    "title": "Generative Adversarial Networks.",
+    "weeks": [
+      11
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 20,
+    "title": "Adversarial Examples.",
+    "weeks": [
+      11
+    ],
+    "draft": false,
+    "active": true
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "current": 10,
+  "current": 11,
   "all": [
     {
       "number": 1,
@@ -48,7 +48,12 @@
     },
     {
       "number": 10,
-      "title": "Generative Models",
+      "title": "Generative Models I",
       "date_range": "Monday, March 29 - Friday, April 2"
+    },
+    {
+      "number": 11,
+      "title": "Generative Models II",
+      "date_range": "Monday, April 5 - Friday, April 9"
     }]
 }
