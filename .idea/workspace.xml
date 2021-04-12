@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e514ebbe-8846-43b4-aed3-206746514631" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/static/discussions/dis10.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/slides/lec-19.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/slides/lec-20.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/discussions/dis10-sol.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/global/discussions.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global/discussions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/global/slides.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global/slides.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/global/weeks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/global/weeks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/midterm2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/midterm2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,15 +19,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/static/discussions" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/static/discussions" />
-      <recent name="$PROJECT_DIR$/src/static/slides" />
-      <recent name="$PROJECT_DIR$/src/static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/static/discussions" />
       <recent name="$PROJECT_DIR$/src/static/slides" />
       <recent name="$PROJECT_DIR$/published/static/review" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static/discussions" />
+      <recent name="$PROJECT_DIR$/src/static/slides" />
+      <recent name="$PROJECT_DIR$/src/static" />
     </key>
   </component>
   <component name="RunDashboard">
