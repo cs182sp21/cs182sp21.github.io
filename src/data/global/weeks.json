@@ -1,5 +1,5 @@
 {
-  "current": 11,
+  "current": 12,
   "all": [
     {
       "number": 1,
@@ -55,5 +55,10 @@
       "number": 11,
       "title": "Generative Models II",
       "date_range": "Monday, April 5 - Friday, April 9"
+    },
+    {
+      "number": 12,
+      "title": "Meta Learning",
+      "date_range": "Monday, April 12 - Friday, April 16"
     }]
 }

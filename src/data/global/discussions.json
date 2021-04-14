@@ -88,5 +88,14 @@
     ],
     "active": true,
     "solution": true
+  },
+  {
+    "number": 11,
+    "title": "GANs & Adversarial Attacks.",
+    "weeks": [
+      12
+    ],
+    "active": true,
+    "solution": false
   }
 ]

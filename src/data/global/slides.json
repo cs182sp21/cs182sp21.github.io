@@ -178,5 +178,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 21,
+    "title": "Meta Learning.",
+    "weeks": [
+      12
+    ],
+    "draft": false,
+    "active": true
   }
 ]
