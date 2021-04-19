@@ -1,5 +1,5 @@
 {
-  "current": 12,
+  "current": 13,
   "all": [
     {
       "number": 1,
@@ -60,5 +60,10 @@
       "number": 12,
       "title": "Meta Learning",
       "date_range": "Monday, April 12 - Friday, April 16"
+    },
+    {
+      "number": 13,
+      "title": "Guest Lectures",
+      "date_range": "Monday, April 19 - Friday, April 23"
     }]
 }

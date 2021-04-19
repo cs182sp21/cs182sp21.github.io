@@ -96,6 +96,15 @@
       12
     ],
     "active": true,
+    "solution": true
+  },
+  {
+    "number": 12,
+    "title": "Meta Learning.",
+    "weeks": [
+      13
+    ],
+    "active": true,
     "solution": false
   }
 ]
