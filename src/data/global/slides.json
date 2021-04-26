@@ -205,5 +205,23 @@
     ],
     "draft": false,
     "active": false
+  },
+  {
+    "number": 24,
+    "title": "Guest Lecture.",
+    "weeks": [
+      14
+    ],
+    "draft": false,
+    "active": false
+  },
+  {
+    "number": 25,
+    "title": "Guest Lecture.",
+    "weeks": [
+      14
+    ],
+    "draft": false,
+    "active": false
   }
 ]
